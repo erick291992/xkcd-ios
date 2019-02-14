@@ -5,7 +5,7 @@ I have seen other implementations of MVVM but the way this project is setup has 
 others recommendations on it.
 
 
-run the following comman after cloning project ( must have cocopods installed)
+run the following command after cloning project ( must have cocopods installed)
 # pod install
 
 <p>
