@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5F329F20AFF8D99F261C1D /* Pods_XKCD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8606F19E20CFE959695EB44 /* Pods_XKCD.framework */; };
 		CD2F1A06220F27A300062D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A05220F27A300062D33 /* AppDelegate.swift */; };
-		CD2F1A08220F27A300062D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A07220F27A300062D33 /* ViewController.swift */; };
 		CD2F1A0B220F27A300062D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F1A09220F27A300062D33 /* Main.storyboard */; };
 		CD2F1A0D220F27A500062D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2F1A0C220F27A500062D33 /* Assets.xcassets */; };
 		CD2F1A10220F27A500062D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F1A0E220F27A500062D33 /* LaunchScreen.storyboard */; };
+		CD2F1A18220F283A00062D33 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A17220F283A00062D33 /* FeedViewController.swift */; };
+		CD2F1A1D220F2A0B00062D33 /* FeedViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A1B220F2A0B00062D33 /* FeedViewControllerCell.swift */; };
+		CD2F1A1E220F2A0B00062D33 /* FeedViewControllerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2F1A1C220F2A0B00062D33 /* FeedViewControllerCell.xib */; };
+		CD2F1A2222128F8500062D33 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A2122128F8500062D33 /* NetworkService.swift */; };
+		CD2F1A242212939700062D33 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A232212939700062D33 /* Constants.swift */; };
+		CD2F1A2722129B8800062D33 /* FeedViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A2622129B8800062D33 /* FeedViewControllerViewModel.swift */; };
+		CD2F1A2922129BD300062D33 /* ComicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A2822129BD300062D33 /* ComicService.swift */; };
+		CD2F1A2C22129DB800062D33 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A2B22129DB800062D33 /* Comic.swift */; };
+		CD2F1A2E22143EAB00062D33 /* FeedViewControllerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A2D22143EAB00062D33 /* FeedViewControllerCellViewModel.swift */; };
+		CD2F1A30221453CC00062D33 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A2F221453CC00062D33 /* Bindable.swift */; };
+		CD2F1A322216009A00062D33 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A312216009A00062D33 /* FavoriteViewController.swift */; };
+		CD2F1A34221606F600062D33 /* FavoriteViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A33221606F600062D33 /* FavoriteViewControllerViewModel.swift */; };
+		CD2F1A3722160ED700062D33 /* FavoriteViewControllerEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F1A3522160ED700062D33 /* FavoriteViewControllerEmptyCell.swift */; };
+		CD2F1A3822160ED700062D33 /* FavoriteViewControllerEmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2F1A3622160ED700062D33 /* FavoriteViewControllerEmptyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54033CA1578E26DD92E85E2D /* Pods-XKCD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKCD.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKCD/Pods-XKCD.release.xcconfig"; sourceTree = "<group>"; };
+		B8606F19E20CFE959695EB44 /* Pods_XKCD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKCD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2F1A02220F27A300062D33 /* XKCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2F1A05220F27A300062D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD2F1A07220F27A300062D33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD2F1A0A220F27A300062D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD2F1A0C220F27A500062D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2F1A0F220F27A500062D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2F1A11220F27A500062D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2F1A17220F283A00062D33 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CD2F1A1B220F2A0B00062D33 /* FeedViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerCell.swift; sourceTree = "<group>"; };
+		CD2F1A1C220F2A0B00062D33 /* FeedViewControllerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewControllerCell.xib; sourceTree = "<group>"; };
+		CD2F1A2122128F8500062D33 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CD2F1A232212939700062D33 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD2F1A2622129B8800062D33 /* FeedViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerViewModel.swift; sourceTree = "<group>"; };
+		CD2F1A2822129BD300062D33 /* ComicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicService.swift; sourceTree = "<group>"; };
+		CD2F1A2B22129DB800062D33 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		CD2F1A2D22143EAB00062D33 /* FeedViewControllerCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerCellViewModel.swift; sourceTree = "<group>"; };
+		CD2F1A2F221453CC00062D33 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		CD2F1A312216009A00062D33 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		CD2F1A33221606F600062D33 /* FavoriteViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewControllerViewModel.swift; sourceTree = "<group>"; };
+		CD2F1A3522160ED700062D33 /* FavoriteViewControllerEmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewControllerEmptyCell.swift; sourceTree = "<group>"; };
+		CD2F1A3622160ED700062D33 /* FavoriteViewControllerEmptyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewControllerEmptyCell.xib; sourceTree = "<group>"; };
+		F0C537DC87056829DDF1EE80 /* Pods-XKCD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKCD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKCD/Pods-XKCD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5F329F20AFF8D99F261C1D /* Pods_XKCD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42DA9052D4A13809792531ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8606F19E20CFE959695EB44 /* Pods_XKCD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD2F19F9220F27A300062D33 = {
 			isa = PBXGroup;
 			children = (
 				CD2F1A04220F27A300062D33 /* XKCD */,
 				CD2F1A03220F27A300062D33 /* Products */,
+				DCF44AA3F20572B605C2A462 /* Pods */,
+				42DA9052D4A13809792531ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +95,84 @@
 		CD2F1A04220F27A300062D33 /* XKCD */ = {
 			isa = PBXGroup;
 			children = (
+				CD2F1A2A22129D7E00062D33 /* Model */,
+				CD2F1A19220F283F00062D33 /* Controller */,
+				CD2F1A1F220F2A1700062D33 /* ViewModel */,
+				CD2F1A1A220F293900062D33 /* View */,
+				CD2F1A2022128F5700062D33 /* Service */,
+				CD2F1A252212960D00062D33 /* Helper */,
 				CD2F1A05220F27A300062D33 /* AppDelegate.swift */,
-				CD2F1A07220F27A300062D33 /* ViewController.swift */,
 				CD2F1A09220F27A300062D33 /* Main.storyboard */,
 				CD2F1A0C220F27A500062D33 /* Assets.xcassets */,
 				CD2F1A0E220F27A500062D33 /* LaunchScreen.storyboard */,
 				CD2F1A11220F27A500062D33 /* Info.plist */,
+				CD2F1A232212939700062D33 /* Constants.swift */,
 			);
 			path = XKCD;
+			sourceTree = "<group>";
+		};
+		CD2F1A19220F283F00062D33 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F1A17220F283A00062D33 /* FeedViewController.swift */,
+				CD2F1A312216009A00062D33 /* FavoriteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD2F1A1A220F293900062D33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F1A1B220F2A0B00062D33 /* FeedViewControllerCell.swift */,
+				CD2F1A1C220F2A0B00062D33 /* FeedViewControllerCell.xib */,
+				CD2F1A3522160ED700062D33 /* FavoriteViewControllerEmptyCell.swift */,
+				CD2F1A3622160ED700062D33 /* FavoriteViewControllerEmptyCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD2F1A1F220F2A1700062D33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F1A2622129B8800062D33 /* FeedViewControllerViewModel.swift */,
+				CD2F1A2D22143EAB00062D33 /* FeedViewControllerCellViewModel.swift */,
+				CD2F1A33221606F600062D33 /* FavoriteViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD2F1A2022128F5700062D33 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F1A2122128F8500062D33 /* NetworkService.swift */,
+				CD2F1A2822129BD300062D33 /* ComicService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CD2F1A252212960D00062D33 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F1A2F221453CC00062D33 /* Bindable.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CD2F1A2A22129D7E00062D33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD2F1A2B22129DB800062D33 /* Comic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCF44AA3F20572B605C2A462 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0C537DC87056829DDF1EE80 /* Pods-XKCD.debug.xcconfig */,
+				54033CA1578E26DD92E85E2D /* Pods-XKCD.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD2F1A14220F27A500062D33 /* Build configuration list for PBXNativeTarget "XKCD" */;
 			buildPhases = (
+				6881C64D7060EF243152CC3F /* [CP] Check Pods Manifest.lock */,
 				CD2F19FE220F27A300062D33 /* Sources */,
 				CD2F19FF220F27A300062D33 /* Frameworks */,
 				CD2F1A00220F27A300062D33 /* Resources */,
+				579A9AFCF2D6E96B9630BB24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +237,80 @@
 			files = (
 				CD2F1A10220F27A500062D33 /* LaunchScreen.storyboard in Resources */,
 				CD2F1A0D220F27A500062D33 /* Assets.xcassets in Resources */,
+				CD2F1A1E220F2A0B00062D33 /* FeedViewControllerCell.xib in Resources */,
 				CD2F1A0B220F27A300062D33 /* Main.storyboard in Resources */,
+				CD2F1A3822160ED700062D33 /* FavoriteViewControllerEmptyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		579A9AFCF2D6E96B9630BB24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XKCD/Pods-XKCD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XKCD/Pods-XKCD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6881C64D7060EF243152CC3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XKCD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD2F19FE220F27A300062D33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2F1A08220F27A300062D33 /* ViewController.swift in Sources */,
+				CD2F1A322216009A00062D33 /* FavoriteViewController.swift in Sources */,
+				CD2F1A30221453CC00062D33 /* Bindable.swift in Sources */,
+				CD2F1A2E22143EAB00062D33 /* FeedViewControllerCellViewModel.swift in Sources */,
+				CD2F1A242212939700062D33 /* Constants.swift in Sources */,
+				CD2F1A2C22129DB800062D33 /* Comic.swift in Sources */,
+				CD2F1A18220F283A00062D33 /* FeedViewController.swift in Sources */,
+				CD2F1A2922129BD300062D33 /* ComicService.swift in Sources */,
+				CD2F1A34221606F600062D33 /* FavoriteViewControllerViewModel.swift in Sources */,
+				CD2F1A1D220F2A0B00062D33 /* FeedViewControllerCell.swift in Sources */,
+				CD2F1A2722129B8800062D33 /* FeedViewControllerViewModel.swift in Sources */,
+				CD2F1A3722160ED700062D33 /* FavoriteViewControllerEmptyCell.swift in Sources */,
+				CD2F1A2222128F8500062D33 /* NetworkService.swift in Sources */,
 				CD2F1A06220F27A300062D33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +455,7 @@
 		};
 		CD2F1A15220F27A500062D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C537DC87056829DDF1EE80 /* Pods-XKCD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +474,7 @@
 		};
 		CD2F1A16220F27A500062D33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54033CA1578E26DD92E85E2D /* Pods-XKCD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
